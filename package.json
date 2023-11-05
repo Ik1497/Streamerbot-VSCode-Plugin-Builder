@@ -1,0 +1,34 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "sass": "sass --watch assets --style compressed"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "nuxt": "^3.4.1",
+    "nuxt-icon": "^0.5.0"
+  },
+  "dependencies": {
+    "@codemirror/autocomplete": "^6.7.1",
+    "@codemirror/lang-javascript": "^6.1.8",
+    "@codemirror/theme-one-dark": "^6.1.2",
+    "@vercel/postgres": "^0.3.0",
+    "clipboard": "^2.0.11",
+    "codemirror": "^6.0.1",
+    "html2pdf.js": "^0.10.1",
+    "nuxt-og-image": "^1.5.9",
+    "octokit": "^2.0.16",
+    "prismjs": "^1.29.0",
+    "sass": "^1.62.0",
+    "showdown": "^2.1.0",
+    "vite-plugin-pug": "^0.3.2",
+    "vue-codemirror": "^6.1.1",
+    "vuetify": "^3.1.15"
+  }
+}
