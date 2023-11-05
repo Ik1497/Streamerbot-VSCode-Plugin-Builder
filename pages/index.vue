@@ -12,12 +12,17 @@ function copy() {
 
 
 <template>
+  <a href="https://docs.streamer.bot/api/manifest/csharp">https://docs.streamer.bot/api/manifest/csharp</a>
+
+  <br>
+  <br>
+
   <v-textarea
-  v-model="dataModel"
-  label="Data"
-  auto-grow
-  rows="1"
-  row-height="15"
+    v-model="dataModel"
+    label="Data"
+    auto-grow
+    rows="1"
+    row-height="15"
   ></v-textarea>
   
   <br>
